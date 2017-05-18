@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tambahan">#FF84DECD</color>
+
+    <color name="white">#fff</color>
+    <color name="black">#222</color>
+    <color name="black_90">#E6222222</color>
+    <color name="black_40">#60222222</color>
+    <color name="gray">#ddd</color>
+    <color name="footer_white">#B3FFFFFF</color>
+    <color name="separator_gray">#B3DDDDDD</color>
+    <color name="separator_blue">#286BA1</color>
+    <color name="light_gray">#f7f7f7</color>
+    <color name="dark_gray">#888</color>
+    <color name="yellow">#fdcb04</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="list_color">#a4cdf8</color>
+
+    <color name="transparent_black">#66000000</color>
+    <color name="transparent_black_50">#80000000</color>
+    <color name="list_hover_color">#deeeff</color>
+    <color name="list_ripple_color">#a4cdf8</color>
+    <color name="button_hover_color">#FFB137</color>
+    <color name="button_ripple_color">#FFB137</color>
+    <color name="flat_button_hover_color">#80FF4E00</color>
+    <color name="footer_hover_color">#888</color>
+    <color name="transparent_blue">#9900599b</color>
+    <color name="btn_disable">#dddddd</color>
+</resources>

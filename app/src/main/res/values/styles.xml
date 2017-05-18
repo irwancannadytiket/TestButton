@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="GhostButton">
+        <item name="android:background">@drawable/selector_ghost_button</item>
+        <item name="android:minHeight">24dp</item>
+        <item name="android:minWidth">50dp</item>
+        <item name="android:textColor">@color/button_hover_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/x_small_margin</item>
+        <item name="android:paddingRight">@dimen/x_small_margin</item>
+        <item name="android:textAppearance">@style/Paragraph2</item>
+    </style>
+
+    <style name="Paragraph2" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/paragraph2</item>
+    </style>
+
+    <style name="Paragraph2Medium" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/paragraph2</item>
+    </style>
+
+    <style name="Paragraph3" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/paragraph3</item>
+    </style>
+
+    <style name="Paragraph3Medium" parent="android:TextAppearance">
+        <item name="android:textSize">@dimen/paragraph3</item>
+    </style>
+
+    <style name="PrimaryButton">
+        <item name="android:background">@drawable/selector_primary_button</item>
+        <item name="android:minHeight">24dp</item>
+        <item name="android:minWidth">74dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/Paragraph2</item>
+        <item name="android:paddingLeft">@dimen/x_small_margin</item>
+        <item name="android:paddingRight">@dimen/x_small_margin</item>
+    </style>
+
+</resources>

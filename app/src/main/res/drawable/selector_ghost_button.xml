@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <stroke android:color="@color/button_hover_color"
+                android:width="@dimen/separator_size"/>
+            <solid android:color="@color/button_hover_color" />
+            <corners android:radius="@dimen/xx_small_margin"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:color="@color/button_hover_color"
+                android:width="@dimen/separator_size"/>
+            <solid android:color="@android:color/white" />
+            <corners android:radius="@dimen/xx_small_margin"/>
+        </shape>
+    </item>
+
+</selector>

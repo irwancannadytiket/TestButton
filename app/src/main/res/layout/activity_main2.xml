@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:background="@drawable/bg_mytiket"
+    tools:context="com.example.irwancannady.testbutton.Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp">
+
+            <ImageView
+                android:id="@+id/iv_order_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                tools:src="@mipmap/ic_launcher" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/tv_mytiket_date"
+                    style="@style/Paragraph2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/dark_gray"
+                    tools:text="Thu, 16 Sep 2016" />
+
+                <TextView
+                    android:id="@+id/tv_mytiket_order_detail_id"
+                    style="@style/Paragraph2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_mytiket_date"
+                    android:layout_marginTop="4dp"
+                    tools:text="Order ID 123223" />
+
+                <TextView
+                    android:id="@+id/tv_mytiket_order_name"
+                    style="@style/Paragraph3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_mytiket_order_detail_id"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/dark_gray"
+                    tools:text="Gambir (GMR) > Bandung (BD)" />
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/tv_mytiket_status"
+                    style="@style/Paragraph2Medium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    tools:text="Done"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shape_dashed_separator"
+            android:layerType="software" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+            <Button
+                android:id="@+id/btn_give_review"
+                style="@style/GhostButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/small_margin"
+                android:layout_toLeftOf="@+id/btn_detail"
+                android:paddingBottom="@dimen/xx_small_margin"
+                android:paddingLeft="@dimen/small_margin"
+                android:paddingRight="@dimen/small_margin"
+                android:paddingTop="@dimen/xx_small_margin"
+                android:text="Give review" />
+
+            <Button
+                android:id="@+id/btn_detail"
+                style="@style/PrimaryButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="@dimen/xx_small_margin"
+                android:paddingLeft="@dimen/small_margin"
+                android:paddingRight="@dimen/small_margin"
+                android:paddingTop="@dimen/xx_small_margin"
+                android:text="Detail" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
